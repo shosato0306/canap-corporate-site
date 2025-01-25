@@ -1,5 +1,20 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## System Requirements
+
+- Node.js >= v18.17.0
+
+### Node.js Version Management
+
+このプロジェクトは`.nvmrc`ファイルを使用して Node.js のバージョンを管理しています。
+
+nvm をインストールしている場合は、以下のコマンドで必要なバージョンをインストールし、切り替えることができます：
+
+```bash
+nvm install  # 必要なバージョンをインストール
+nvm use      # .nvmrcで指定されたバージョンに切り替え
+```
+
 ## Getting Started
 
 First, run the development server:
