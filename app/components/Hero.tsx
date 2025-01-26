@@ -9,6 +9,9 @@ export default function Hero() {
     <section className="w-full min-h-screen py-20 bg-gradient-to-b from-amber-50 via-orange-50 to-white text-gray-800 relative overflow-hidden">
       <div className="absolute inset-0 bg-[url('/images/noise.png')] opacity-5" />
       <div className="absolute inset-0 bg-[url('/images/dots.svg')] bg-repeat opacity-10" />
+      <div className="absolute top-20 -left-32 w-96 h-96 bg-orange-200 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob" />
+      <div className="absolute top-0 -right-32 w-96 h-96 bg-amber-200 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000" />
+      <div className="absolute -bottom-32 left-1/2 w-96 h-96 bg-yellow-200 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000" />
       <div className="max-w-7xl mx-auto text-center relative z-10 px-4">
         <motion.div
           initial={{ scale: 0.8, opacity: 0 }}
