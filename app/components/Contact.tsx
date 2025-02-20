@@ -1,4 +1,4 @@
-import { Mail, Twitter, Github, Linkedin } from "lucide-react"
+import { Mail, Github, Linkedin } from "lucide-react"
 
 export default function Contact() {
   return (
@@ -12,31 +12,22 @@ export default function Contact() {
             s-sato@canap.co.jp
           </a>
           <a
-            href="https://twitter.com/canap_ceo"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center text-blue-400 hover:text-blue-600"
-          >
-            <Twitter className="w-6 h-6 mr-2" />
-            @canap_ceo
-          </a>
-          <a
-            href="https://github.com/canap-ceo"
+            href="https://github.com/shosato0306"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center text-gray-700 hover:text-gray-900"
           >
             <Github className="w-6 h-6 mr-2" />
-            canap-ceo
+            shosato0306
           </a>
           <a
-            href="https://www.linkedin.com/in/canap-ceo"
+            href="https://www.linkedin.com/in/sho-sato-bb8647172"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center text-blue-700 hover:text-blue-900"
           >
             <Linkedin className="w-6 h-6 mr-2" />
-            佐藤翔
+            Sho Sato
           </a>
         </div>
       </div>

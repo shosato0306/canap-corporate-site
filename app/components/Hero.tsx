@@ -5,6 +5,11 @@ import canapLogo from "@/public/images/canap_logo.png"
 import { motion } from "framer-motion"
 
 export default function Hero() {
+  const scrollToServices = () => {
+    const servicesSection = document.getElementById('services')
+    servicesSection?.scrollIntoView({ behavior: 'smooth' })
+  }
+
   return (
     <section className="w-full min-h-screen py-20 bg-gradient-to-b from-amber-50 via-orange-50 to-white text-gray-800 relative overflow-hidden">
       <div className="absolute inset-0 bg-[url('/images/noise.png')] opacity-5" />
@@ -48,7 +53,10 @@ export default function Hero() {
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.7, duration: 0.8, ease: "easeOut" }}
         >
-          <button className="bg-gradient-to-r from-amber-500 to-orange-400 text-white px-10 py-4 rounded-full font-medium hover:shadow-lg transition-all duration-300 transform hover:-translate-y-0.5">
+          <button
+            onClick={scrollToServices}
+            className="bg-gradient-to-r from-amber-500 to-orange-400 text-white px-10 py-4 rounded-full font-medium hover:shadow-lg transition-all duration-300 transform hover:-translate-y-0.5"
+          >
             詳しく見る
           </button>
         </motion.div>

@@ -39,7 +39,7 @@ export default function Services() {
   }
 
   return (
-    <section id="services" className="w-full py-32 bg-gradient-to-b from-gray-50 to-white">
+    <section id="services" className="w-full py-20 bg-white">
       <div className="max-w-7xl mx-auto px-6">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
